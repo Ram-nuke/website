@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: aqua;
+}
+.cls1{
+   
+   
+    color: rgb(248, 245, 245);
+    font-weight: 600;
+    font-size: 200px;
+    font-family: 'Roboto',sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}/*.cls2{
+    
+    font-size: 3cm;
+    color: white;
+
+}*/
+/*.mail{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 100;
+}*/
+.cls2 .img1{
+    height: 220px;
+    width:220px;
+}
+.end{
+    font-family: 'Roboto',sans-serif;
+    font-size: 200px;
+    color: aliceblue;
+
+} 

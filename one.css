@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.cls1{
+    background-color:blue ;
+    margin: 30px;
+    padding: 40px;
+    width: 200px;
+    height: 100px;
+    color: beige;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    background-color: aqua;
+}
+p{
+    background-color: bisque;
+}
+.cls2{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.cls2 h1{
+    background-color: black;
+}
+.cls2 .cls3 p{
+    background-color: blue;
+}

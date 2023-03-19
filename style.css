@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252A; */
+}
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(242, 245, 247);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 2%;
+    background-color: #24252A;
+}
+
+.logo{
+    /* cursor: pointer; */
+    height: 90px;
+    width: 200px;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+}
+nav{
+    order: 1;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}
+.navlinks li a{
+    transition: all 0.3s ease-out 0s ;
+}
+.navlinks li a:hover{
+    color: #0088a9;
+}
+.cta{
+    order: 2;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0.01s ;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.imgs{
+    width: 100%;
+    align-items: center;
+    height: 700px;
+    background-image: url("jk001.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.plc-2-visit{
+    padding: 100px 100px;  
+    /* background-color: aqua;  */
+    margin-bottom: 50px;
+     
+}
+.box01{
+    position: relative;
+    border: none;
+    border-radius: 15px;
+    background-color: bisque;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    height: 300px;
+    width: 400px;
+
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "Montserrat",sans-serif;
+    color: rgb(255, 255, 255);
+    transition: 0.4s ;
+}
+.box01:hover{
+    width: 440px;
+    height: 330px;
+    font-size: 30px;
+}
+.box01 p{
+    font-size: 30px;
+    font-weight: 600;
+    color:  #000000;
+}
+#b01{
+    background-image: url("jk001.jpg");
+    /* align-items: center; */
+    background-position: center top;
+}
+#b02{
+    background-image: url("sarafa.webp");
+    /* align-items: center; */
+    background-position: center top;
+}
+#b03{
+    background-image: url("timall.jpg");
+    /* align-items: center; */
+    background-position: center top;
+}
+#b04{
+    background-image: url("vlct.jpg");
+    /* align-items: center; */
+    background-position: center top;
+}
+#b05{
+    background-image: url("falls.jpg");
+    /* align-items: center; */
+    background-position: center top;
+}
+footer{
+    font-size: 29px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: "Montserrat",sans-serif;
+    padding: 20px;
+    height: 90px;
+    width: 100%;
+    border: solid #171717 3px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: #24252A;
+    color: aliceblue;
+}
